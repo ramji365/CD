@@ -74,3 +74,11 @@ void check()
            i=i-2;
          }
    }
+   
+// Input: id+id*id
+
+/*
+Shift reduce parsing is a process of reducing a string to the start symbol of a grammar. Shift reduce parsing uses a stack to hold the grammar and an input tape to hold the string. It uses 2 methods to do so i.e. shift putting the current symbol into the stack and reduce which is converting the current symbol into a terminal.
+
+It is a bottom up parsing technique in which the parse tree is constructed from leaf to the root node. It is a LR parser.
+*/
